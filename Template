@@ -1,0 +1,219 @@
+%-------------------------
+% Ayoub Cherfaoui - CV
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+\input{glyphtounicode}
+
+% Accent color
+\definecolor{accent}{RGB}{31, 78, 121}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting with color rule
+\titleformat{\section}{
+  \vspace{-4pt}\color{accent}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{accent}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\color{accent}#1} & \small #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+% HEADING
+\begin{center}
+    {\Huge \scshape \color{accent} Ayoub Cherfaoui} \\ \vspace{5pt}
+    \small
+    \faPhone\ +60 11 7028 9406 \quad
+    \faEnvelope\ \href{mailto:ayoubcherfaoui19.25@gmail.com}{ayoubcherfaoui19.25@gmail.com} \quad
+    \faMapMarker*\ Selangor, Malaysia \\ \vspace{3pt}
+    \href{https://github.com/ayoub003184}{\faGithub\ GitHub} \quad
+    \href{https://www.linkedin.com/in/ayoub-cherfaoui-0b3699352/}{\faLinkedin\ LinkedIn} \quad
+    \href{https://ayoub-cherfaoui.netlify.app}{\faGlobe\ Website}
+\end{center}
+
+% SUMMARY
+\section{Summary}
+\small{
+Second-year AI Engineering student at Xiamen University Malaysia on a \textbf{full merit scholarship}, holding a national academic record of \textbf{19.25/20} and honored by the \textbf{President of Algeria}. Built and deployed two production systems in active departmental use: an attendance platform serving 1,700+ students and a room-booking system used by 50+ lecturers. 
+}
+
+% EDUCATION
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Xiamen University Malaysia}{Selangor, Malaysia}
+      {Bachelor of Artificial Intelligence \quad $\cdot$ \quad Full Merit Scholarship}{Feb 2025 -- Jan 2029 (Expected)}
+      \resumeItemListStart
+        \resumeItem{Dean's List, Year 1 Semester 1 \& Semester 2 (Consecutive)}
+        \resumeItem{Core coursework: Machine Learning, Data Structures, Multivariable Calculus, NLP}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Lyc\'{e}e Bekkai Abdellah}{Tlemcen, Algeria}
+      {French Baccalaureate in Mechanical Engineering}{Sep 2021 -- Jul 2024}
+      \resumeItemListStart
+        \resumeItem{Score of \textbf{19.25/20}, top 0.1\% nationwide. Honored by the \textbf{President of Algeria}.}
+        \resumeItem{3-time Mathematics Olympiad National Finalist}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+% EXPERIENCE
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {AI \& Web Developer}{Feb 2025 -- Present}
+      {Kroeva}{Kuala Lumpur, Malaysia (Remote)}
+      \resumeItemListStart
+        \resumeItem{Built AI-driven features and full-stack web applications using Python, JavaScript, and Flask.}
+        \resumeItem{Optimized ML model inference pipeline, reducing backend response times by \textbf{25\%}.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Teaching Assistant \& Mathematics Tutor}{Feb 2025 -- Present}
+      {IT Foundation Dept, Xiamen University Malaysia}{Selangor, Malaysia}
+      \resumeItemListStart
+        \resumeItem{Academic support for Foundation students in Calculus and Linear Algebra.}
+        \resumeItem{Tutor for Mathematics and Algebra , conducting 1 to 1 and group classes .}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Arabic Language Tutor}{Jan 2024 -- Feb 2025}
+      {Preply}{Remote}
+      \resumeItemListStart
+        \resumeItem{Conducted 1-on-1 Arabic lessons for international students across multiple proficiency levels.}
+        \resumeItem{Designed custom lesson plans; received consistently positive student feedback.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+% PROJECTS
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{\color{accent}UniAttend} $|$ \emph{Python, Face Recognition, GPS, Flask, QR Code}}{}
+          \resumeItemListStart
+            \resumeItem{Anti-cheat attendance system serving \textbf{1,700+ students} and \textbf{10+ lecturers} at XMUM IT Foundation.}
+            \resumeItem{GPS-locked QR codes and bulk face registration; eliminated proxy attendance entirely.}
+            \resumeItem{Processes \textbf{300+ students in under 2 minutes}. Recommended for university-wide rollout.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{\color{accent}UniBooking} $|$ \emph{Node.js, Express, Supabase, PostgreSQL, Railway}}{}
+          \resumeItemListStart
+            \resumeItem{Room booking system used by \textbf{50+ lecturers}, managing \textbf{695 weekly timetable entries} across 26 rooms.}
+            \resumeItem{Real-time conflict engine; supports 12-week semester validation with full audit logging.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{\color{accent}PYRO Vision} $|$ \emph{Python, TensorFlow, OpenCV}}{}
+          \resumeItemListStart
+            \resumeItem{Real-time fire detection for drones with \textbf{92\% accuracy} on a custom dataset.}
+            \resumeItem{Inference optimized by \textbf{40\%} for Raspberry Pi edge deployment; outperformed YOLOv5 by 5\%.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{\color{accent}A\&P Chatbot} $|$ \emph{Python, OpenAI API, RAG, ChromaDB}}{}
+          \resumeItemListStart
+            \resumeItem{RAG-based course assistant with automated quiz generation for AIT103.}
+            \resumeItem{Reduced instructor workload by \textbf{15 hours/week} through automated student Q\&A.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{\color{accent}Alzheimer Path Assistant} $|$ \emph{Python, tkinter, networkx}}{}
+          \resumeItemListStart
+            \resumeItem{Navigation assistant for memory-impaired users with A*, Greedy, and BFS pathfinding.}
+            \resumeItem{Interactive GUI with visual city maps and safety-weighted routing.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+% TECHNICAL SKILLS
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming}{: Python (Advanced), C/C++, JavaScript, SQL, HTML/CSS, Node.js} \\
+     \textbf{AI \& ML}{: TensorFlow, PyTorch, OpenCV, NLP, Face Recognition, RAG, ChromaDB} \\
+     \textbf{Tools \& Platforms}{: Git, Docker, Linux, Flask, Streamlit, Supabase, PostgreSQL, Jupyter} \\
+     \textbf{Languages}{: Arabic (Native), French (C1), English (C1), Chinese (HSK 2), Malay (A2)}
+    }}
+ \end{itemize}
+
+% CERTIFICATIONS AND AWARDS
+\section{Certifications \& Awards}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+      \textbf{Honors:} Presidential Excellence Award (Algeria) $\cdot$ 3$\times$ Maths Olympiad National Finalist $\cdot$ Full Merit Scholarship, XMUM $\cdot$ Dean's List Y1 S1\&S2 \\[3pt]
+      \textbf{AI \& Tech:} IBM AI Foundations $\cdot$ IBM Generative AI \& Prompt Engineering $\cdot$ Huawei Intelligent World 2035 $\cdot$ Lund University AI \& Law \\[3pt]
+      \textbf{Science:} University of Colorado Boulder --- Quantum Mechanics $\cdot$ MindLuster --- Linear Algebra for Computer Scientists \\[3pt]
+      \textbf{Management:} PMI Project Management Foundations $\cdot$ ISO 9001 Internal Auditor (Udemy) \\[3pt]
+      \textbf{Engineering:} Robotics \& IoT Certificate, XMUM $\cdot$ AutoCAD Masterclass (Udemy)
+    }}
+ \end{itemize}
+
+% REFERENCES
+\section{References}
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{Mr. Koo Chong Him} & \href{mailto:nigelkoo@xmu.edu.my}{nigelkoo@xmu.edu.my} \quad +60 03-76102025 \\
+  \textit{Head of Division / Senior Lecturer, IT Foundation, Xiamen University Malaysia} & \\
+\end{tabular*}
+
+\end{document}
